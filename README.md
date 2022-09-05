@@ -1,3 +1,6 @@
-# react-jskya8
+# Reactjs 
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-jskya8)
+Applying the redux library in react in a practical example of how to manage the state of the application
+
+library: https://redux.js.org/
+api: https://reqres.in/
