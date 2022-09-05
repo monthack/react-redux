@@ -1,5 +1,5 @@
 // una parte del estado
-import { createSlice } from '@redux/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 
 //axios
 import axios from 'axios';
@@ -11,12 +11,12 @@ export const userSlice = createSlice({
   },
   reducers: {
     setUserList: (state, action) => {
-      state.list = action.playload;
+      state.list = action.payload;
     },
   },
 });
 
-export const { setUserList } = userSlice.action;
+export const { setUserList } = userSlice.actions;
 
 export default userSlice.reducer;
 
